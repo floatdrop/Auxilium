@@ -1,0 +1,12 @@
+.bowerrc
+.idea
+node_modules
+client-build
+build.txt
+.c9revisions
+*.bat
+*.sublime-project
+*.sublime-workspace
+debug.log
+exceptions.log
+*.sh
