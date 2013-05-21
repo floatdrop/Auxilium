@@ -1,6 +1,6 @@
 {
   "name": "auxilium",
-  "version": "0.0.1",
+  "version": "0.0.1-1",
   "private": false,
   "subdomain": "auxilium",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "yaml": "",
-    "express": "3.x",
+    "express": "*",
     "config": "",
     "forever": "*",
     "hbs": "1.x",
