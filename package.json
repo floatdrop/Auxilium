@@ -1,28 +1,12 @@
 {
   "name": "auxilium",
-  "version": "0.0.1-7",
-  "private": false,
-  "subdomain": "auxilium",
+  "version": "0.0.1",
+  "private": true,
   "scripts": {
-    "start": "node ./server.js"
+    "start": "node app.js"
   },
   "dependencies": {
-    "yaml": "",
-    "express": "*",
-    "config": "",
-    "forever": "*",
-    "hbs": "1.x",
-    "less": "1.x",
-    "less-middleware": "",
-    "underscore": "1.x"
-  },
-  "devDependencies": {
-    "jshint": ">=0.9.1",
-    "vows": ">=0.7.0",
-    "should": ">=1.2.2",
-    "zombie": "==1.4.1"
-  },
-  "engines": {
-    "node": ">=0.8.8"
+    "express": "3.2.5",
+    "jade": "*"
   }
 }

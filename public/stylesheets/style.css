@@ -1,0 +1,38 @@
+body {
+	background-attachment:fixed;
+	background: fixed #232323 url(../images/world.png) no-repeat center center;
+}
+
+a {
+  color: #00B7FF;
+}
+
+@font-face
+{
+	font-family: firstorder;
+	src: url('../fonts/firstv2.ttf');
+}
+
+.auxilium-font {
+	font-family: firstorder;
+}
+
+#content, #help {
+	height:800px;
+	background: rgba(40, 40, 40, .5);
+}
+
+h1 {
+	font-weight: normal;
+	color: #FFF;
+	text-align: center;
+	font-size: 100px;
+	padding: 50px;
+}
+
+.menu {
+	padding: 50px;
+	clear: both;
+	margin: auto auto;
+	text-align: center;
+}
