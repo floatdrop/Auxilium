@@ -13,6 +13,10 @@ a {
 	src: url('../fonts/firstv2.ttf');
 }
 
+#back-btn {
+	margin-top: 800px;
+}
+
 .auxilium-font {
 	font-family: firstorder;
 }
@@ -20,6 +24,10 @@ a {
 #content, #help {
 	height:800px;
 	background: rgba(40, 40, 40, .5);
+}
+
+#help {
+	height: 1600px;
 }
 
 h1 {

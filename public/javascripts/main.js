@@ -4,7 +4,7 @@ $(function () {
 	});
 
 	$("#help-btn").click(function() {
-		$('html, body').animate({scrollTop: $("#help").offset().top}, 1000);
+		$('html, body').animate({scrollTop: 1600}, 1000);
 	});
 
 	$("#back-btn").click(function() {
